@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import KeyBoard from "./KeyBoard";
 import Button from "@material-ui/core/Button";
+import "./App.css";
 import TextField from "@material-ui/core/TextField";
 
 function App({}) {
