@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "My Custom Font";
+    src: url(http://localhost:3000/STAMSFARADYREGULAR.ttf) format("truetype");
+}
+
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
+* {
+    font-family: 'Open Sans Hebrew', serif;
+}
+
+.App {
+    text-align: center;
+}
+
+html,
+body {
+    direction: rtl;
+}
+
+.key {
+    display: inline-block;
+    font-Size: 20px;
+    margin: 5px;
+    width: 7vw;
+    height: 7vw;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 3px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.keySpace {
+    display: inline-block;
+    font-Size: 20px;
+    margin: 5px;
+    width: 55vw;
+    height: 7vw;
+    max-height: 50px;
+    max-width: 400px;
+    border-radius: 3px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.centerKey {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
